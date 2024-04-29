@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: radial-gradient(rgb(126, 1, 126), transparent);
+}
+
+header nav {
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    color: #000;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+}
+
+header li a:hover {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    color: #ffffff;
+}
+
+article h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -2px;
+    align-self: center;
+}
+
+section {
+    height: 90vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section img {
+    margin: 1%;
+    width: 50%;
+    height: 70%;
+}
+
+.texte {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(rgb(126, 1, 126), transparent);
+}
+
+footer p {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
