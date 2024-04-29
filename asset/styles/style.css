@@ -150,6 +150,11 @@ footer p {
         justify-content: center;
     }
 
+    .texte {
+        margin: 0% 5%;
+
+    }
+
     .texte h2,
     .texte a {
         font-size: 0.8rem;
