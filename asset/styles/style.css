@@ -47,19 +47,19 @@ header li a:hover {
 }
 
 /* on fait du flex sur les article en colonne pour mettre le titre en haut */
-article {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-article h1 {
+section h1 {
     margin-top: 1%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* on fait des boites pour chaque section avec de la marge et on mets ses enfant en flex */
-section {
+article {
     border: 1px solid yellow;
     border-radius: 10px;
     box-shadow: #000 1px 1px 20px 0px;
@@ -73,7 +73,7 @@ section {
 }
 
 /* Définition de la taille de l'image avec de la marge  */
-.img-section {
+.img-article {
     width: 30%;
     margin: 0% 1%;
 }
@@ -129,11 +129,11 @@ footer p {
 /* Mediaqueries pour les tablettes */
 @media screen and (max-width: 1200px) {
 
-    section {
+    article {
         flex-direction: column;
     }
 
-    .img-section {
+    .img-article {
         margin: 0;
         width: auto;
         align-self: center;
@@ -153,11 +153,11 @@ footer p {
         font-size: 1.25rem;
     }
 
-    .img-section img {
+    .img-article img {
         width: 60%;
     }
 
-    .img-section {
+    .img-article {
         display: flex;
         justify-content: center;
     }
@@ -176,7 +176,7 @@ footer p {
         font-size: 0.6rem;
     }
 
-    article h1 {
+    section h1 {
         font-size: 1rem;
     }
 }
